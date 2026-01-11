@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="upper">
+                <div class="row1" id="row1">
+                    <h1 id="e" style="display:none;">0</h1>
+                    <h1 id="op1">0</h1>
+                    <h1 id="sy"></h1>
+                    <h1 id="op2"></h1>
+                </div>
+                <div class="row2">
+                    <h1 id="final">= 0</h1>
+                </div>
+        </div>
+        <div class="line">
+
+        </div>
+        <div class="lower">
+            <div class="buttons">
+                <div class="but" onclick="action('AC')">
+                    <h1>AC</h1>
+                </div>
+                <div class="but" onclick="action('DEL')">
+                    <h1>Del</h1>
+                </div>
+                <div class="but" onclick="action('%')">
+                    <h1>%</h1>
+                </div>
+                <div class="but" onclick="action('/')">
+                    <h1>/</h1>
+                </div>
+                <div class="but" onclick="action(1)">
+                    <h1>1</h1>
+                </div>
+                <div class="but" onclick="action(2)">
+                    <h1>2</h1>
+                </div>
+                <div class="but" onclick="action(3)">
+                    <h1>3</h1>
+                </div>
+                <div class="but" onclick="action('x')">
+                    <h1>x</h1>
+                </div>
+                <div class="but" onclick="action(4)">
+                    <h1>4</h1>
+                </div>
+                <div class="but" onclick="action(5)">
+                    <h1>5</h1>
+                </div>
+                <div class="but" onclick="action(6)">
+                    <h1>6</h1>
+                </div>
+                <div class="but" onclick="action('-')">
+                    <h1>-</h1>
+                </div>
+                <div class="but" onclick="action(7)">
+                    <h1>7</h1>
+                </div>
+                <div class="but" onclick="action(8)">
+                    <h1>8</h1>
+                </div>
+                <div class="but" onclick="action(9)">
+                    <h1>9</h1>
+                </div>
+                <div class="but" onclick="action('+')">
+                    <h1>+</h1>
+                </div>
+                <div class="but" id="sound">
+                    <h1>
+                        <i id="sound1" style="display: none;" class="fa-solid fa-volume-high"></i>   
+                        <i id="sound2" class="fa-solid fa-volume-xmark"></i>
+                    </h1>
+                </div>
+                <div class="but" onclick="action(0)">
+                    <h1>0</h1>
+                </div>
+                <div class="but" onclick="action('.')">
+                    <h1>.</h1>
+                </div>
+                <div class="but" onclick="action('=')">
+                    <h1>=</h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
